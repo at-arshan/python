@@ -6,3 +6,12 @@ name ="arshan atahskar"
 namesplit = name.split()
 print(nums)
 print(namesplit[::1])
+names = namesplit * 3
+print(names)
+piazza_price=300
+pizza_people=5
+print(pizza_people * piazza_price)
+pizza_share=pizza_people * piazza_price
+print(pizza_share ** 2 )
+piazza_price=400
+print(piazza_price)
