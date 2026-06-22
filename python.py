@@ -114,10 +114,18 @@ print(students.keys())
 for i in students:
     print(i)
     print(students[i].keys())
-
-for w in class_student:
+for w in class_student: 
+    
+    
     print(w)
     print(class_student[w].keys())
 
-for s in class_student:
-    print(class_student[w].values())
+   #why the answer got duplicated   
+my_set={1,2,3,4,5}
+print(my_set)
+my_set = {1, 2, 2, 3, 4, 4, 5}
+print(my_set)
+My_set=set(["sara","artin","mohamad","arshia"])
+My_set.add("arshan")
+My_set.add("ZORO")
+print(My_set)

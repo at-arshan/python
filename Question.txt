@@ -1,0 +1,71 @@
+QUESTION FOR dictionary={
+TASK 1 (Easy-Medium)
+
+Print all class names.
+
+Expected:
+
+class_A
+class_B
+🧠 TASK 2 (Medium)
+
+Print all student names only (no age/score).
+
+Expected:
+
+mmd
+sara
+artin
+ali
+john
+dexter
+🧠 TASK 3 (Medium-Hard)
+
+Print:
+
+name age score
+
+for every student.
+
+Example:
+
+mmd 18 20
+sara 17 19
+...
+🧠 TASK 4 (Hard)
+
+Find the highest scoring student overall.
+
+Expected format:
+
+Top student: artin
+Score: 22
+🧠 TASK 5 (Hard)
+
+Find the average score of each class.
+
+Expected:
+
+class_A average: 20.33
+class_B average: 18.33
+🧠 TASK 6 (Very Hard)
+
+Create a new dictionary like this:
+
+{
+    "mmd": 20,
+    "sara": 19,
+    "artin": 22,
+    "ali": 17,
+    "john": 20,
+    "dexter": 18
+}
+🧠 TASK 7 (Boss Level 😈)
+
+Find:
+
+total students
+highest age student
+lowest score student
+
+Print all in one output.}
