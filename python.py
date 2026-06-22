@@ -129,3 +129,22 @@ My_set=set(["sara","artin","mohamad","arshia"])
 My_set.add("arshan")
 My_set.add("ZORO")
 print(My_set)
+
+name2 = "rshan"
+name2 = "a" + name2[0:]
+print(name2)
+hello = "hello"
+print(hello +"\n" + name2)
+#\n is for going for next line and dont come with one sentence
+print(name.upper())
+len(name2)
+print(len(name))
+format=f"hello {name2} your age is {age} and your last name is {lastname} "
+print(f"hello {name2} your age is {age + age } and your last name is {lastname} ")
+print(format)
+x = 'Hi this is a string'
+result = x.lower()
+print(result)
+result = x.lower().split()
+print(result)
+
