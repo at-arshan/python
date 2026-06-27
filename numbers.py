@@ -149,11 +149,13 @@ if len(input_username)>=4:
    print("Registration Successful")
 elif  " " in input_username:
      print("Username cannot contain spaces")
+import os 
+print("FILE IS HERE:", os.path.abspath("name.txt"))
 
 name=input("what is your name:? ")
 print("Hello",name)
 print("i love you",name)
 
 file =open("name.txt","a")
-file.write(name + "\n")
+file.write(name +"\n") 
 file.close()
