@@ -152,10 +152,75 @@ elif  " " in input_username:
 import os 
 print("FILE IS HERE:", os.path.abspath("name.txt"))
 
-name=input("what is your name:? ")
-print("Hello",name)
-print("i love you",name)
+#name=input("what is your name:? ")
+#print("Hello",name)
+#print("i love you",name)
 
-file =open("name.txt","a")
-file.write(name +"\n") 
-file.close()
+#file =open("name.txt","a")
+#file.write(name +"\n") 
+#file.close()
+#a=int(input())
+#b=int(input())
+#c=int(input())
+#print(a<b<=c)
+shopping_price=65000
+if shopping_price>50000:
+     print((shopping_price)-(shopping_price *  0.20))
+elif 20000<shopping_price<50000:
+     print((shopping_price)-(shopping_price * 0.10))
+else:
+     if shopping_price<20000:
+      print(shopping_price)
+
+student_score=[10,20,4,13,18,7,16,19,15,17]
+passed=0
+faild=0
+highest=student_score[0]
+lowest=student_score[0]
+for score in student_score: 
+     if score >=10:
+          passed+=1
+
+     if score<10:
+          faild+=1
+     if score>highest:
+          highest=score
+     if score<lowest:
+          lowest=score
+
+print("passed:", passed)
+print("faild:",faild)
+print("highest score:",highest)
+print("lowest score:",lowest)
+
+n=5
+x=10
+for numbers in range(n) :
+   if (x % 2) == 0 : 
+      x=x//2
+      print(x)
+   else:
+        if (x%2) != 0 :
+         x=2*x-1
+         print(x)
+
+users = {
+    "arshan": "1234",
+    "sara": "abcd",
+    "ali": "9999"
+}
+User = input("username:")
+password=input("password:")
+if User in users and users[User]==password:
+    print("welcome back",User)
+else:
+    print("worng username or password")
+
+if User in user :
+    print("username already exist")
+else:
+    
+  file=open("user.txt","a")
+  file.write(User + "," + password + "\n")
+  file.close()
+  print("new user saved")

@@ -148,3 +148,59 @@ print(result)
 result = x.lower().split()
 print(result)
 
+
+n=50
+
+#while n>1 : 
+   #if n%2==0 :
+     # n=n/2
+      #print(n)
+   #else:
+      #if n%2!=0:
+   # n=n*3+1
+      # print(n)
+
+#pasword="hello"
+#guess=""
+#while guess!=pasword:
+   #guess=input("Enter your password: ")
+#print("correct")
+
+
+#balanced=1000
+#while balanced>0 :
+   #print(f"your balance is {balanced}")
+   #amount=int(input("how much you want to withdraw? "))
+   
+   #if amount>balanced:
+     # print("not enought balance")
+   #else:
+      #balanced=balanced-amount
+      #print("done")
+#print("your account is empty")
+
+n=0
+while n<20 : 
+   n+=1
+   if n%3==0 and n%5==0:
+         print("hiloap")
+         continue
+
+   if n%3==0 : 
+      print("hoop")
+      continue
+      print(n)
+   if n%5==0:
+      print("Heep")
+      continue
+      print(n)
+   if n%5!=0 and n%3!=0:
+      print(n)
+
+
+numebers=[1,2,3,4,5,6,7,8]
+for n in numebers:
+   if n==4:
+      print("found it!!!")
+      pass
+   print(n)
